@@ -1,0 +1,8 @@
+pipenv install numpy xgboost==1.7.6 flask scikit-learn==1.5.1
+
+to run with docker:
+
+>>> docker build -t bnb-price-predictor .
+>>> docker run -it --rm --entrypoint=bash bnb-price-predictor # view ./app folder in docker
+>>> docker run -it --rm -p 9100:9100 bnb-price-predictor OR
+>>> docker run -p 9100:9100 bnb-price-predictor
