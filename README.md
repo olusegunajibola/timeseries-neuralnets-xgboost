@@ -38,7 +38,7 @@ View the deployed model at [https://bit.ly/deploy-time-series](https://bit.ly/de
 ### Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/bnb-price-predictor.git
+   git clone https://github.com/olusegunajibola/timeseries-neuralnets-xgboost.git
    cd bnb-price-predictor
    ```
 2. Install dependencies using `pipenv`:
